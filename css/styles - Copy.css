@@ -1,0 +1,145 @@
+.container-fluid {
+	padding: 60px 50px;
+}
+
+.image-container {
+	position: relative;
+}
+
+.intro {
+	/* 	line-height: 2.0; */
+	position: absolute;
+	top: 45%;
+	left: 20%;
+	color: white;
+	font-size: 26px
+}
+
+.title {
+	line-height: 1.2;
+	display: inline-block;
+	position: absolute;
+	top: 50%;
+	left: 15%;
+	color: white;
+	font-size: 72px;
+}
+
+.line-style {
+	line-height: 1.2;
+	color: black;
+}
+
+.title:after, .title:before, .heading:after, .heading:before {
+	content: ' ';
+	position: absolute;
+	top: 50%;
+	height: 2px;
+	width: 80px;
+	margin: 0 10px;
+	display: inline-block;
+	zoom: 1;
+	background: #fff;
+}
+
+.title:before, .heading:before {
+	right: 100%;
+}
+
+.title:after, .heading:after {
+	left: 100%;
+}
+
+.heading:before, .heading:after {
+	background: black;
+}
+
+.bottom-bg {
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-color: transparent;
+	background-position: 50% 50%;
+	background-image:
+	url(http://uploads.strikinglycdn.com/static/backgrounds/blurred-bg/60.jpg);
+}
+
+.heading {
+	font-family: raleway, helvetica, sans-serif;
+	font-size: 36px;
+	position: relative;
+	display: inline-block;
+}
+
+.small-heading {
+	font-family: raleway, helvetica, sans-serif;
+	font-size: 36px;
+	position: relative;
+	display: inline-block;
+}
+
+.contact-hover img:hover {
+	border-radius: 50%;
+	border: 1px solid #333;
+}
+
+.row.extra-bottom-padding {
+	margin-bottom: 35px;
+}
+
+.profile-position {
+	color: #5e9516;
+	font-family: "open sans", helvetica, sans-serif;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: bold;
+}
+
+.profile-place {
+	font-family: "open sans", helvetica, sans-serif;
+	font-size: 15px;
+	font-style: normal;
+	font-weight: bold;
+}
+
+.section-description {
+	font-family: "open sans ", helvetica, sans-serif;
+	font-size: 20px;
+	font-style: italic;
+	font-weight: normal;
+}
+
+.profile-image {
+	border-radius: 40px;
+}
+
+.profile-description {
+	font-family: "open sans", helvetica, sans-serif;
+	font-size: 15px;
+	font-style: normal;
+	font-weight: normal;
+}
+
+.my-life {
+	color: white;
+}
+
+.my-life a {
+	line-height: 1.7;
+	text-decoration: none;
+	color: white;
+}
+
+.my-life a:hover {
+	color: #337ab7;
+}
+
+.bg-4 {
+	background-color: #fff;
+	color: #fff;
+	padding-top: 70px;
+	padding-bottom: 70px;
+}
+
+.bg-grey {
+	background-color: #f6f6f6;
+}

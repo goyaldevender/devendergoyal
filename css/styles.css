@@ -1,0 +1,197 @@
+.bg-4
+{
+	background-color: #fff;
+	color: #fff;
+	padding-bottom: 70px;
+	padding-top: 70px;
+}
+.bg-grey
+{
+	background-color: #f6f6f6;
+}
+.bottom-bg
+{
+	background-color: transparent;
+	background-image: url(http://uploads.strikinglycdn.com/static/backgrounds/blurred-bg/60.jpg);
+	background-position: 50% 50%;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.contact-hover img:hover
+{
+	border: 1px solid #333;
+	border-radius: 50%;
+}
+.container-fluid
+{
+	padding: 60px 50px;
+}
+.heading
+{
+	display: inline-block;
+	font-family: raleway, helvetica, sans-serif;
+	font-size: 36px;
+	position: relative;
+}
+.heading:after
+{
+	left: 100%;
+}
+.heading:after, .heading:before, .title:after, .title:before
+{
+	background: #fff;
+	content: ' ';
+	display: inline-block;
+	height: 2px;
+	margin: 0 10px;
+	position: absolute;
+	top: 50%;
+	width: 80px;
+	zoom: 1;
+}
+.heading:before
+{
+	right: 100%;
+}
+.heading:before, .heading:after
+{
+	background: black;
+}
+.image-container
+{
+	position: relative;
+}
+.intro
+{
+	color: white;
+	font-size: 26px;
+	left: 20%;
+	position: absolute;
+	top: 45%;
+}
+.line-style
+{
+	color: black;
+	line-height: 1.2;
+}
+.my-life
+{
+	color: white;
+}
+.my-life a
+{
+	color: white;
+	line-height: 1.7;
+	text-decoration: none;
+}
+.my-life a:hover
+{
+	color: #337ab7;
+}
+.profile-description
+{
+	font-family: "open sans", helvetica, sans-serif;
+	font-size: 15px;
+	font-style: normal;
+	font-weight: normal;
+}
+.profile-image
+{
+	border-radius: 40px;
+}
+.profile-place
+{
+	font-family: "open sans", helvetica, sans-serif;
+	font-size: 15px;
+	font-style: normal;
+	font-weight: bold;
+}
+.profile-position
+{
+	color: #5e9516;
+	font-family: "open sans", helvetica, sans-serif;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: bold;
+}
+.row.extra-bottom-padding
+{
+	margin-bottom: 35px;
+}
+.section-description
+{
+	font-family: "open sans ", helvetica, sans-serif;
+	font-size: 20px;
+	font-style: italic;
+	font-weight: normal;
+}
+.small-heading
+{
+	display: inline-block;
+	font-family: raleway, helvetica, sans-serif;
+	font-size: 36px;
+	position: relative;
+}
+.title
+{
+	color: white;
+	display: inline-block;
+	font-size: 72px;
+	left: 15%;
+	line-height: 1.2;
+	position: absolute;
+	top: 50%;
+}
+.title:after
+{
+	left: 100%;
+}
+.title:after, .title:before
+{
+	background: #fff;
+	content: ' ';
+	display: inline-block;
+	height: 2px;
+	margin: 0 10px;
+	position: absolute;
+	top: 50%;
+	width: 80px;
+	zoom: 1;
+}
+.title:before
+{
+	right: 100%;
+}
+.slideanim {visibility:hidden;}
+.slide {
+    /* The name of the animation */
+    animation-name: slide;
+    -webkit-animation-name: slide; 
+    /* The duration of the animation */
+    animation-duration: 1s; 
+    -webkit-animation-duration: 1s;
+    /* Make the element visible */
+    visibility: visible; 
+}
+
+/* Go from 0% to 100% opacity (see-through) and specify the percentage from when to slide in the element along the Y-axis */
+@keyframes slide {
+    0% {
+        opacity: 0;
+        transform: translateY(70%);
+    } 
+    100% {
+        opacity: 1;
+        transform: translateY(0%);
+    } 
+}
+@-webkit-keyframes slide {
+    0% {
+        opacity: 0;
+        -webkit-transform: translateY(70%);
+    } 
+    100% {
+        opacity: 1;
+        -webkit-transform: translateY(0%);
+    }
+}
