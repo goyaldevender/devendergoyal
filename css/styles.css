@@ -5,10 +5,12 @@
 	padding-bottom: 70px;
 	padding-top: 70px;
 }
+
 .bg-grey
 {
 	background-color: #f6f6f6;
 }
+
 .bottom-bg
 {
 	background-color: transparent;
@@ -17,15 +19,26 @@
 	background-repeat: no-repeat;
 	background-size: cover;
 }
+
 .contact-hover img:hover
 {
 	border: 1px solid #333;
 	border-radius: 50%;
 }
+
 .container-fluid
 {
 	padding: 60px 50px;
 }
+
+.no-padding
+{
+   padding-left: 0;
+   padding-right: 0;
+   padding-top: 0;
+   padding-bottom: 0;
+}
+
 .heading
 {
 	display: inline-block;
@@ -33,10 +46,12 @@
 	font-size: 36px;
 	position: relative;
 }
+
 .heading:after
 {
 	left: 100%;
 }
+
 .heading:after, .heading:before, .title:after, .title:before
 {
 	background: #fff;
@@ -49,6 +64,7 @@
 	width: 80px;
 	zoom: 1;
 }
+
 .heading:before
 {
 	right: 100%;
